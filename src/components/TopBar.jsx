@@ -11,7 +11,7 @@ export default function TopBar() {
   return (
     <div className="bg-blue-600 text-white text-sm">
       {/* Top row */}
-      <div className="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-2">
+      <div className="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center justify-center sm:justify-between gap-2">
         <div className="flex flex-wrap items-center gap-4">
           <a
             href="mailto:info@michael-golden.com"
