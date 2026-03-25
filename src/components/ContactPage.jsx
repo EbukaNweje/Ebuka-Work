@@ -1,5 +1,4 @@
-const contactPageImg =
-  "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&q=80";
+import contactPageImg from "../assets/instagram3.jpg";
 import {
   MdOutlinePhone,
   MdOutlineEmail,
@@ -15,7 +14,7 @@ const info = [
   {
     icon: <MdOutlineEmail size={32} className="text-blue-500" />,
     label: "Email Address",
-    value: "info@michael-golden.com",
+    value: "info@gregorvankirk.com",
   },
   {
     icon: <MdOutlineLocationOn size={32} className="text-blue-500" />,

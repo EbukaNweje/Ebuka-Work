@@ -5,8 +5,7 @@ import {
 } from "react-icons/md";
 import { TbTargetArrow } from "react-icons/tb";
 
-const whyImg =
-  "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&q=80";
+import whyImg from "../assets/IMG_9709.jpg";
 
 const reasons = [
   {

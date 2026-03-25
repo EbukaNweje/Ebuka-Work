@@ -1,5 +1,4 @@
-const transparencyImg =
-  "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=800&q=80";
+import transparencyImg from "../assets/instagram5.jpg";
 
 const skills = [
   { label: "Forex CFDs", value: 94 },

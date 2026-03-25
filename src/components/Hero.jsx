@@ -34,12 +34,12 @@ export default function Hero() {
       {slides.map((slide, i) => (
         <div
           key={i}
-          className={`absolute inset-0 transition-opacity duration-700 ${i === current ? "opacity-100" : "opacity-0"} object-contain`}
+          className={`absolute inset-0 transition-opacity duration-700 ${i === current ? "opacity-100" : "opacity-0"}`}
         >
           <img
             src={slide.img}
             alt={slide.title}
-            className="w-full h-full object-contain object-top"
+            className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-black/20" />
           <div className="absolute bottom-24 left-1/2 -translate-x-1/2 text-center text-white w-full px-4">

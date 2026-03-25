@@ -1,5 +1,4 @@
-const brokerImg =
-  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80";
+import brokerImg from "../assets/instagram4.jpg";
 
 export default function AboutDetail() {
   return (

@@ -1,5 +1,4 @@
-const brokerImg =
-  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80";
+import brokerImg from "../assets/instagram2.jpg";
 
 export default function About() {
   return (
@@ -9,7 +8,7 @@ export default function About() {
           <img
             src={brokerImg}
             alt="Gregor Vankirk"
-            className="w-full md:w-[340px] h-[380px] object-cover object-top"
+            className="w-full md:w-[340px] h-[380px] object-cover "
           />
           <span className="absolute top-3 right-3 text-white text-[10px] font-bold tracking-widest">
             MATTBOYD
