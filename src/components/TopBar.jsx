@@ -54,7 +54,7 @@ export default function TopBar() {
       </div>
       {/* Bottom row */}
       <div className="max-w-7xl mx-auto px-4 pb-3">
-        <span className="flex items-center gap-1 text-xs">
+        <span className="flex items-center gap-1 text-xs text-center text-gray-200">
           <MdLocationOn size={14} />
           1999 Avenue of the Stars, Suite 2400 Los Angeles, CA 90067
         </span>
