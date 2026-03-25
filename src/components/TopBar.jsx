@@ -31,7 +31,7 @@ export default function TopBar() {
         </div>
         <div className="flex items-center gap-3">
           <span className="flex items-center gap-1">
-            <MdAccessTime size={15} />
+            <MdAccessTime size={15} className="hidden md:inline" />
             <span className="hidden md:inline">
               Mon - Fri: 9:00 am - 06.00pm / Closed on Weekends
             </span>
@@ -54,7 +54,7 @@ export default function TopBar() {
       </div>
       {/* Bottom row */}
       <div className="max-w-7xl mx-auto px-4 pb-3">
-        <span className="flex items-center gap-1 text-xs text-center text-gray-200">
+        <span className="flex gap-1 text-xs text-center text-gray-200">
           <MdLocationOn size={14} />
           1999 Avenue of the Stars, Suite 2400 Los Angeles, CA 90067
         </span>
