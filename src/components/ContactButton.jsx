@@ -27,7 +27,7 @@ export default function ContactButton() {
             <FiPhone size={22} />
           </a>
           <a
-            href="https://wa.me/+13326990836"
+            href="https://wa.link/0qzgmu"
             target="_blank"
             rel="noreferrer"
             className="w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-lg hover:bg-[#1ebe5b] transition-all duration-300 hover:scale-110"
@@ -43,7 +43,7 @@ export default function ContactButton() {
             <FiMail size={20} />
           </a>
           <a
-            href="https://t.me/username"
+            href="https://t.me/joshuamiller3"
             target="_blank"
             rel="noreferrer"
             className="w-14 h-14 rounded-full bg-blue-500 text-white flex items-center justify-center shadow-lg hover:bg-blue-600 transition-all duration-300 hover:scale-110"
