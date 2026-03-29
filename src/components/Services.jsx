@@ -42,19 +42,18 @@ export default function Services() {
             SERVICES <span className="block w-8 h-[2px] bg-blue-600" />
           </p>
           <h2 className="text-3xl font-bold text-gray-900 leading-snug mb-5">
-            Navigate Rapid Markets with Gregor's Expertise
+            Navigate Rapid Markets with Joshua's Expertise
           </h2>
           <p className="text-gray-500 text-sm leading-relaxed mb-8">
-            Gregor Vankirk is a licensed financial advisor based in Chandler,
-            AZ, with 16 years of industry experience. He is currently affiliated
-            with Wells Fargo Financial Advisory, following his previous roles at
-            Merrill Lynch, Pierce, Fenner & Smith Incorporated, and Waddell &
-            Reed, Inc. Gregor holds Series 7, Series 66, and SIE licenses,
-            certifying him as both a securities agent and an investment advisor
-            representative, with authorization to operate in 52 states.
+            Joshua M Miller is a licensed Financial Advisor based in Garden
+            City, NY, with over 16 years of experience. He is currently
+            affiliated with both Morgan Stanley Financial Advisory and Merrill
+            Lynch, Pierce, Fenner & Smith Incorporated. He holds Series 7,
+            Series 66, and SIE licenses and is authorized to serve clients
+            across 37 states.
           </p>
           <a
-            href="/about"
+            href="https://brokercheck.finra.org/individual/summary/5166189"
             className="inline-block bg-blue-600 text-white text-xs font-bold tracking-widest uppercase px-6 py-3 hover:bg-blue-700 transition-colors"
           >
             CHECK BROKER

@@ -26,11 +26,11 @@ export default function Testimonials() {
               Clients Testimonials
             </h2>
             <p className="text-gray-500 text-sm leading-relaxed italic mb-8 max-w-md">
-              Working with Gregor Vankirk has been a game-changer for my
+              Working with JOSHUA M MILLER has been a game-changer for my
               financial journey. Their expertise in financial management,
               advisory, tax strategies, and pension planning has provided me
               with peace of mind and a clear path to achieving my financial
-              goals. Gregor Vankirk truly understands the complexities of
+              goals. JOSHUA M MILLER truly understands the complexities of
               personal finance and delivers personalized solutions that fit my
               unique needs.
             </p>

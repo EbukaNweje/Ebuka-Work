@@ -17,7 +17,7 @@ export default function Transparency() {
         <div className="flex-shrink-0 w-full md:w-[380px]">
           <img
             src={transparencyImg}
-            alt="Gregor Vankirk"
+            alt="JOSHUA M MILLER"
             className="w-full h-[420px] object-cover rounded-2xl"
           />
         </div>
@@ -32,9 +32,9 @@ export default function Transparency() {
             For Investors who Value Transparency
           </h2>
           <p className="text-gray-500 text-sm leading-relaxed mb-8">
-            Over the years of working closely with clients, Gregor Vankirk
+            Over the years of working closely with clients, JOSHUA M MILLER
             noticed a concerning trend—many individuals were not sufficiently
-            involved in their own financial planning. Gregor is committed to
+            involved in their own financial planning. Joshua is committed to
             empowering people of all ages and backgrounds with the tools to take
             charge of their financial well-being.
           </p>

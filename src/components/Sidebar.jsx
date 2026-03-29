@@ -12,7 +12,7 @@ export default function Sidebar({ open, onClose }) {
     <>
       {/* Overlay */}
       {open && (
-        <div className="fixed inset-0 bg-black/40 z-40" onClick={onClose} />
+        <div className="fixed inset-0 bg-white/80 z-10" onClick={onClose} />
       )}
 
       {/* Drawer */}
@@ -38,18 +38,18 @@ export default function Sidebar({ open, onClose }) {
                 <span
                   key={i}
                   className="bg-blue-600 w-[4px] rounded-sm"
-                  style={{ height: `${h * 3}px` }}
+                  style={{ height: `${h * 10}px`, width: "20px" }}
                 />
               ))}
             </div>
-            <span className="text-4xl font-extrabold tracking-widest text-gray-900">
-              GREGOR
+            <span className="text-[90px] font-extrabold tracking-widest text-gray-900">
+              Joshua
             </span>
           </div>
 
           {/* Description */}
           <p className="text-gray-600 text-base leading-relaxed mb-8">
-            Gregor Vankirk is dedicated to building strong client relationships
+            JOSHUA M MILLER is dedicated to building strong client relationships
             by deeply understanding your goals, addressing concerns with
             empathy, and providing tailored solutions to ensure you feel
             supported and confident in your financial decisions.
@@ -62,12 +62,10 @@ export default function Sidebar({ open, onClose }) {
                 size={18}
                 className="text-gray-500 mt-0.5 flex-shrink-0"
               />
-              <span>
-                1999 Avenue of the Stars, Suite 2400 Los Angeles, CA 90067
-              </span>
+              <span>1325 FRANKLIN AVE GARDEN CITY, NY 11530</span>
             </div>
             <span>+1 (332) 699-0836</span>
-            <span>info@gregorvankirk.com</span>
+            <span>info@Joshuavankirk.com</span>
             <span>09:00 - 17:00</span>
           </div>
 

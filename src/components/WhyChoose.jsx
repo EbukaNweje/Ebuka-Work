@@ -5,7 +5,7 @@ import {
 } from "react-icons/md";
 import { TbTargetArrow } from "react-icons/tb";
 
-import whyImg from "../assets/IMG_9709.jpg";
+import whyImg from "../assets/downImage2.jpeg";
 
 const reasons = [
   {
@@ -39,7 +39,7 @@ export default function WhyChoose() {
             CHOOSE US <span className="block w-8 h-[2px] bg-blue-600" />
           </p>
           <h2 className="text-3xl font-bold text-gray-900 mb-8">
-            Why Choose Gregor
+            Why Choose Joshua
           </h2>
 
           <div className="grid grid-cols-2 gap-4">
@@ -61,7 +61,7 @@ export default function WhyChoose() {
         <div className="flex-shrink-0 w-full md:w-[380px]">
           <img
             src={whyImg}
-            alt="Gregor Vankirk"
+            alt="JOSHUA M MILLER"
             className="w-full h-[360px] object-cover rounded-sm"
           />
         </div>

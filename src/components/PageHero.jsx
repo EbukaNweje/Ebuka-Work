@@ -15,7 +15,7 @@ export default function PageHero({ title }) {
         <h1 className="text-4xl font-bold mb-3">{title}</h1>
         <div className="flex items-center gap-2 text-sm">
           <Link to="/" className="hover:text-blue-400 transition-colors">
-            Gregor Vankirk
+            JOSHUA M MILLER
           </Link>
           <span className="text-gray-300">/</span>
           <span className="text-gray-200">{title}</span>

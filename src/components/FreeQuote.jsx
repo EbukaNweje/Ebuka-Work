@@ -8,7 +8,7 @@ export default function FreeQuote() {
       <div className="w-full md:w-1/2 h-64 md:h-auto">
         <img
           src={quoteImg}
-          alt="Gregor Vankirk"
+          alt="JOSHUA M MILLER"
           className="w-full h-full object-cover"
         />
       </div>

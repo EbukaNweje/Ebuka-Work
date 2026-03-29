@@ -14,12 +14,12 @@ const info = [
   {
     icon: <MdOutlineEmail size={32} className="text-blue-500" />,
     label: "Email Address",
-    value: "info@gregorvankirk.com",
+    value: "info@joshuamiller.com",
   },
   {
     icon: <MdOutlineLocationOn size={32} className="text-blue-500" />,
     label: "Office Address",
-    value: "1999 Avenue of the Stars, Suite 2400 Los Angeles, CA 90067",
+    value: "1325 FRANKLIN AVE GARDEN CITY, NY 11530",
   },
 ];
 

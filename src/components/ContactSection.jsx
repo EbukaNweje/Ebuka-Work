@@ -69,7 +69,7 @@ export default function ContactSection() {
               <div>
                 <p className="text-xs font-bold mb-1">Office Address</p>
                 <p className="text-xs leading-relaxed text-blue-100">
-                  1999 Avenue of the Stars, Suite 2400 Los Angeles, CA 90067
+                  1325 FRANKLIN AVE GARDEN CITY, NY 11530
                 </p>
               </div>
             </div>
@@ -87,7 +87,7 @@ export default function ContactSection() {
             <MdOutlineEmail size={18} className="mt-0.5 flex-shrink-0" />
             <div>
               <p className="text-xs font-bold mb-1">Mail Us</p>
-              <p className="text-xs text-blue-100">info@gregorvankirk.com</p>
+              <p className="text-xs text-blue-100">info@joshuamiller.com</p>
             </div>
           </div>
 

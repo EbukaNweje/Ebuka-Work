@@ -1,4 +1,4 @@
-import brokerImg from "../assets/instagram2.jpg";
+import brokerImg from "../assets/downImage.jpeg";
 
 export default function About() {
   return (
@@ -7,7 +7,7 @@ export default function About() {
         <div className="relative flex-shrink-0 w-full md:w-[340px]">
           <img
             src={brokerImg}
-            alt="Gregor Vankirk"
+            alt="JOSHUA M MILLER"
             className="w-full md:w-[340px] h-[380px] object-cover "
           />
           <span className="absolute top-3 right-3 text-white text-[10px] font-bold tracking-widest">
@@ -17,7 +17,7 @@ export default function About() {
 
         <div className="flex-1">
           <p className="text-blue-600 text-xs font-semibold tracking-widest uppercase flex items-center gap-2 mb-3">
-            GREGOR VANKIRK – AWARD-WINNING LICENSED ADVISOR
+            JOSHUA M MILLER – AWARD-WINNING LICENSED ADVISOR
             <span className="block w-8 h-[2px] bg-blue-600" />
           </p>
           <h2 className="text-3xl font-bold text-gray-900 leading-snug mb-5">
@@ -29,7 +29,7 @@ export default function About() {
           </p>
           <p className="text-gray-500 text-sm leading-relaxed mb-8">
             With over 10 years of experience and having served more than 1,000
-            clients globally, Gregor is a renowned licensed broker recognized in
+            clients globally, Joshua is a renowned licensed broker recognized in
             both Asia and Europe. He is dedicated to empowering individuals of
             all backgrounds with essential financial knowledge and tools to make
             informed decisions for their financial well-being.

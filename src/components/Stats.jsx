@@ -70,7 +70,7 @@ export default function Stats() {
 
       <div className="relative max-w-7xl mx-auto">
         <p className="text-xs font-semibold tracking-widest uppercase mb-2">
-          Gregor Vankirk – AWARD WINNER AND LICENSED BROKER
+          JOSHUA M MILLER – AWARD WINNER AND LICENSED BROKER
         </p>
         <h2 className="text-3xl font-bold mb-12">Facts For Choosing Us</h2>
 

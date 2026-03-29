@@ -9,27 +9,27 @@ import {
 
 export default function TopBar() {
   return (
-    <div className="bg-blue-600 text-white text-sm">
+    <div className="bg-blue-600 text-white text-sm h-25">
       {/* Top row */}
-      <div className="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center justify-center sm:justify-between gap-2">
+      <div className="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center justify-center sm:justify-between ">
         <div className="flex flex-wrap items-center gap-4">
           <a
-            href="mailto:info@michael-golden.com"
+            href="mailto:info@joshuamiller.com"
             className="flex items-center gap-1 hover:text-blue-200"
           >
             <MdEmail size={15} />
-            <span>info@gregorvankirk.com</span>
+            <span>info@joshuamiller.com</span>
           </a>
           <span className="hidden sm:block border-l border-blue-400 h-4" />
           <a
-            href="tel:+14232766167"
+            href="tel:+13326990836"
             className="flex items-center gap-1 hover:text-blue-200"
           >
             <BsTelephone size={13} />
             <span>+1 (332) 699-0836</span>
           </a>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 mt-4 md:mt-0">
           <span className="flex items-center gap-1">
             <MdAccessTime size={15} className="hidden md:inline" />
             <span className="hidden md:inline">
@@ -53,10 +53,10 @@ export default function TopBar() {
         </div>
       </div>
       {/* Bottom row */}
-      <div className="max-w-7xl mx-auto px-4 pb-3">
+      <div className="max-w-7xl mx-auto px-4 pb-3 mt-1 md:mt-5">
         <span className="flex gap-1 text-xs text-center text-gray-200">
           <MdLocationOn size={14} />
-          1999 Avenue of the Stars, Suite 2400 Los Angeles, CA 90067
+          1325 FRANKLIN AVE GARDEN CITY, NY 11530
         </span>
       </div>
     </div>

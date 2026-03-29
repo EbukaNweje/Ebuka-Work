@@ -43,11 +43,11 @@ export default function Footer() {
               ))}
             </div>
             <span className="text-xl font-bold tracking-widest text-white">
-              GREGOR
+              Joshua
             </span>
           </div>
           <p className="text-sm text-gray-400 leading-relaxed mb-6">
-            Gregor Vankirk is dedicated to building strong client relationships
+            JOSHUA M MILLER is dedicated to building strong client relationships
             by deeply understanding your goals, addressing concerns with
             empathy, and providing tailored solutions to ensure you feel
             supported and confident in your financial decisions.
@@ -64,10 +64,10 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-bold text-lg mb-5">Contact Info</h4>
           <p className="text-sm text-gray-400 leading-relaxed mb-3">
-            1999 Avenue of the Stars, Suite 2400 Los Angeles, CA 90067
+            1325 FRANKLIN AVE GARDEN CITY, NY 11530
           </p>
           <p className="text-sm text-gray-400 mb-3">+1 (332) 699-0836</p>
-          <p className="text-sm text-gray-400">info@gregorvankirk.com</p>
+          <p className="text-sm text-gray-400">info@joshuamiller.com</p>
         </div>
 
         {/* Col 3: Latest Posts */}
@@ -98,7 +98,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="max-w-7xl mx-auto px-4 py-4 text-xs text-gray-500">
-        ©copyright {new Date().getFullYear()} Gregor Vankirk
+        ©copyright {new Date().getFullYear()} JOSHUA M MILLER
       </div>
     </footer>
   );

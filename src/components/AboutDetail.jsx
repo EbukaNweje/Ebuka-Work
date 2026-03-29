@@ -1,4 +1,4 @@
-import brokerImg from "../assets/instagram4.jpg";
+import brokerImg from "../assets/ImgSlide3.jpeg";
 
 export default function AboutDetail() {
   return (
@@ -8,7 +8,7 @@ export default function AboutDetail() {
         <div className="relative flex-shrink-0 w-full md:w-[420px]">
           <img
             src={brokerImg}
-            alt="Gregor Vankirk"
+            alt="JOSHUA M MILLER"
             className="w-full h-[480px] object-cover object-top"
           />
           <span className="absolute top-3 right-3 text-white text-[10px] font-bold tracking-widest leading-tight text-right">
@@ -27,20 +27,18 @@ export default function AboutDetail() {
             Time to Make Your Finances Magical
           </h2>
           <p className="text-gray-900 text-sm font-bold mb-4">
-            Letting losses run is the most serious mistake made by most
-            investors.
+            Where Thoughtful Risk Management Drives Sustainable Financial Growth
           </p>
           <p className="text-gray-500 text-sm leading-relaxed mb-8">
-            Gregor Vankirk is a licensed financial advisor based in Chandler,
-            AZ, with 16 years of industry experience. He is currently affiliated
-            with Wells Fargo Financial Advisory, following his previous roles at
-            Merrill Lynch, Pierce, Fenner & Smith Incorporated, and Waddell &
-            Reed, Inc. Michael holds Series 7, Series 66, and SIE licenses,
-            certifying him as both a securities agent and an investment advisor
-            representative, with authorization to operate in 52 states.
+            Joshua Miller is a licensed Financial Advisor based in Garden City,
+            NY, with over 16 years of experience. He is currently affiliated
+            with both Morgan Stanley Financial Advisory and Merrill Lynch,
+            Pierce, Fenner & Smith Incorporated. He holds Series 7, Series 66,
+            and SIE licenses and is authorized to serve clients across 37
+            states.
           </p>
           <a
-            href="#"
+            href="https://brokercheck.finra.org/individual/summary/5166189"
             className="inline-block bg-blue-600 text-white text-xs font-bold tracking-widest uppercase px-6 py-3 hover:bg-blue-700 transition-colors"
           >
             DISCOVER MORE
