@@ -29,7 +29,7 @@ export default function ContactButton() {
             <FaWhatsapp size={20} />
           </a>
           <a
-            href="mailto:info@example.com"
+            href="mailto:info@joshuamiller.com"
             className="w-14 h-14 rounded-full bg-red-500 text-white flex items-center justify-center shadow-lg hover:bg-red-600 transition-colors"
             title="Email"
           >
