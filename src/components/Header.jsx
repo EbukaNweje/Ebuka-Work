@@ -90,9 +90,9 @@ export default function Header() {
 
           {/* Icons */}
           <div className="hidden md:flex items-center gap-4 text-gray-600">
-            <button className="hover:text-blue-600 transition-colors">
+            {/* <button className="hover:text-blue-600 transition-colors">
               <FiSearch size={25} />
-            </button>
+            </button> */}
             <button
               className="hover:text-blue-600 transition-colors"
               onClick={() => setSidebarOpen(true)}

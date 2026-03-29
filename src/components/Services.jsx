@@ -4,6 +4,7 @@ import {
   MdOutlineCloud,
   MdOutlineShield,
 } from "react-icons/md";
+import AnimatedSection from "./AnimatedSection";
 
 const services = [
   {
@@ -37,7 +38,10 @@ export default function Services() {
     <section className="py-16 px-4 bg-white">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-start">
         {/* Left text */}
-        <div className="lg:w-1/3 flex-shrink-0">
+        <AnimatedSection
+          animation="fade-in-left"
+          className="lg:w-1/3 flex-shrink-0"
+        >
           <p className="text-blue-600 text-xs font-semibold tracking-widest uppercase flex items-center gap-2 mb-3">
             SERVICES <span className="block w-8 h-[2px] bg-blue-600" />
           </p>
@@ -58,13 +62,15 @@ export default function Services() {
           >
             CHECK BROKER
           </a>
-        </div>
+        </AnimatedSection>
 
         {/* Right grid */}
         <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-4">
           {services.map((s, i) => (
-            <div
+            <AnimatedSection
               key={i}
+              animation="scale-in"
+              delay={i + 1}
               className="bg-gray-50 rounded-2xl p-6 flex flex-col gap-3 hover:shadow-md transition-shadow"
             >
               <div>{s.icon}</div>
@@ -72,7 +78,7 @@ export default function Services() {
                 {s.title}
               </h3>
               <p className="text-gray-500 text-sm leading-relaxed">{s.desc}</p>
-            </div>
+            </AnimatedSection>
           ))}
         </div>
       </div>

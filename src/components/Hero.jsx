@@ -3,6 +3,7 @@ import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import Img2 from "../assets/ImgSlide1.jpeg";
 import Img1 from "../assets/Imageslide2.jpeg";
 import Img3 from "../assets/ImgSlide3.jpeg";
+import AnimatedSection from "./AnimatedSection";
 
 const slides = [
   {
@@ -43,12 +44,16 @@ export default function Hero() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-black/20" />
           <div className="absolute bottom-24 left-1/2 -translate-x-1/2 text-center text-white w-full px-4">
-            <p className="text-sm tracking-[0.2em] mb-3 text-gray-200">
-              {slide.subtitle}
-            </p>
-            <h1 className="text-4xl md:text-6xl font-extrabold uppercase leading-tight">
-              {slide.title}
-            </h1>
+            <AnimatedSection animation="fade-in-up">
+              <p className="text-sm tracking-[0.2em] mb-3 text-gray-200">
+                {slide.subtitle}
+              </p>
+            </AnimatedSection>
+            <AnimatedSection animation="slide-in-up" delay={1}>
+              <h1 className="text-4xl md:text-6xl font-extrabold uppercase leading-tight">
+                {slide.title}
+              </h1>
+            </AnimatedSection>
           </div>
         </div>
       ))}
