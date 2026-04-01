@@ -1,4 +1,4 @@
-import contactPageImg from "../assets/instagram3.jpg";
+import contactPageImg from "../assets/ImgWorkk.jpeg";
 import {
   MdOutlinePhone,
   MdOutlineEmail,

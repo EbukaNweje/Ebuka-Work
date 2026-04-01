@@ -1,5 +1,4 @@
-const quoteImg =
-  "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80";
+import quoteImg from "../assets/ImgWork.jpeg";
 
 export default function FreeQuote() {
   return (

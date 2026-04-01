@@ -1,4 +1,4 @@
-import contactImg from "../assets/instagram3.jpg";
+import contactImg from "../assets/ImgWorkkk.jpeg";
 
 export default function ContactMRG() {
   return (

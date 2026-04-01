@@ -3,6 +3,7 @@ import TopBar from "./components/TopBar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ContactButton from "./components/ContactButton";
+import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Awards from "./pages/Awards";
@@ -15,6 +16,7 @@ export default function App() {
     <div className="min-h-screen flex flex-col">
       <TopBar />
       <Header />
+      <ScrollToTop />
       <main className="flex-1">
         <Routes>
           <Route path="/" element={<Home />} />

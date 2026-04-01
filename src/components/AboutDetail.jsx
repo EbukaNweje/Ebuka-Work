@@ -11,11 +11,11 @@ export default function AboutDetail() {
             alt="JOSHUA M MILLER"
             className="w-full h-[480px] object-cover object-top"
           />
-          <span className="absolute top-3 right-3 text-white text-[10px] font-bold tracking-widest leading-tight text-right">
+          {/* <span className="absolute top-3 right-3 text-white text-[10px] font-bold tracking-widest leading-tight text-right">
             MATTBOYD
             <br />
             <span className="text-[8px] font-normal">PHOTOGRAPHY</span>
-          </span>
+          </span> */}
         </div>
 
         {/* Right content */}

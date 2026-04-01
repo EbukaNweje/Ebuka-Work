@@ -10,9 +10,9 @@ export default function About() {
             alt="JOSHUA M MILLER"
             className="w-full md:w-[340px] h-[380px] object-cover "
           />
-          <span className="absolute top-3 right-3 text-white text-[10px] font-bold tracking-widest">
+          {/* <span className="absolute top-3 right-3 text-white text-[10px] font-bold tracking-widest">
             MATTBOYD
-          </span>
+          </span> */}
         </div>
 
         <div className="flex-1">
@@ -27,7 +27,7 @@ export default function About() {
             Letting losses run is the most serious mistake made by most
             investors.
           </p>
-          <p className="text-gray-500 text-sm leading-relaxed mb-8">
+          <p className="text-gray-500 text-[18px] w-[80%] leading-relaxed mb-8">
             With over 10 years of experience and having served more than 1,000
             clients globally, Joshua is a renowned licensed broker recognized in
             both Asia and Europe. He is dedicated to empowering individuals of

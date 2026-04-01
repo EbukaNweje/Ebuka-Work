@@ -35,7 +35,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section className="py-16 px-4 bg-white">
+    <section id="services" className="py-16 px-4 bg-white">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-start">
         {/* Left text */}
         <AnimatedSection
