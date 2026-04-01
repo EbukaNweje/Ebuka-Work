@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import Img2 from "../assets/ImgWork.jpeg";
-import Img1 from "../assets/ImgWorkkk.jpeg";
+import Img2 from "../assets/ImgSlide1.jpeg";
+import Img1 from "../assets/Imageslide2.jpeg";
 import Img3 from "../assets/ImgSlide3.jpeg";
 import AnimatedSection from "./AnimatedSection";
 
@@ -48,7 +48,7 @@ export default function Hero() {
           <img
             src={slide.img}
             alt={slide.title}
-            className="w-full h-full object-cover object-top"
+            className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-black/20" />
           <div className="absolute bottom-24 left-1/2 -translate-x-1/2 text-center text-white w-full px-4">
