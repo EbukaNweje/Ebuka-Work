@@ -1,4 +1,4 @@
-import transparencyImg from "../assets/Imageslide2.jpeg";
+import transparencyImg from "../assets/ImgWorkk.jpeg";
 
 const skills = [
   { label: "Forex CFDs", value: 94 },

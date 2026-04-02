@@ -1,25 +1,13 @@
-const testimonialImg =
-  "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=80";
 const avatarImg =
   "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80";
 
-const logos = [
-  {
-    name: "Cointelegraph",
-    style: "text-yellow-600 text-sm font-semibold tracking-wide",
-  },
-  { name: "yahoo! finance", style: "text-purple-600 text-xl font-bold" },
-  { name: "Forbes", style: "text-blue-900 text-2xl font-bold italic" },
-  { name: "TED", style: "text-red-500 text-2xl font-bold" },
-];
-
 export default function Testimonials() {
   return (
-    <section className="bg-gradient-to-br from-slate-100 to-blue-50 py-16 px-4">
-      <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row items-start gap-12 mb-12">
-          <div className="flex-1">
-            <p className="text-blue-600 text-xs font-semibold tracking-widest uppercase flex items-center gap-2 mb-3">
+    <section className="bg-gradient-to-br from-slate-100 to-blue-50 py-16 px-4 flex items-center justify-center">
+      <div className="mx-auto w-full flex flex-col items-center gap-12 max-w-4xl">
+        <div className="flex flex-col md:flex-row items-center gap-12 mb-12">
+          <div className="flex-1 text-center">
+            <p className="text-blue-600 text-xs font-semibold tracking-widest uppercase flex justify-center items-center gap-2 mb-3">
               REVIEWS <span className="block w-8 h-[2px] bg-blue-600" />
             </p>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
@@ -45,20 +33,6 @@ export default function Testimonials() {
               </span>
             </div>
           </div>
-          <div className="flex-shrink-0 w-full md:w-[380px]">
-            <img
-              src={testimonialImg}
-              alt="Testimonial"
-              className="w-full h-[320px] object-cover rounded-2xl"
-            />
-          </div>
-        </div>
-        <div className="border-t border-gray-200 pt-8 flex flex-wrap items-center justify-around gap-6">
-          {logos.map((l, i) => (
-            <span key={i} className={l.style}>
-              {l.name}
-            </span>
-          ))}
         </div>
       </div>
     </section>
