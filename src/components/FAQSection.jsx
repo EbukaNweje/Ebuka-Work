@@ -16,8 +16,8 @@ const faqs = [
     a: "We offer financial planning, wealth coaching, pension consulting, portfolio management, reports analysis, and investment advisory services.",
   },
   {
-    q: "What qualifications do Andrew have?",
-    a: "Michael holds Series 7, Series 66, and SIE licenses, certifying him as both a securities agent and an investment advisor representative.",
+    q: "What qualifications do Joshua have?",
+    a: "Joshua holds Series 7, Series 66, and SIE licenses, certifying him as both a securities agent and an investment advisor representative.",
   },
   {
     q: "Do you offer personalized investment advice?",
