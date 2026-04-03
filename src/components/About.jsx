@@ -1,4 +1,4 @@
-import brokerImg from "../assets/Imageslide2.jpeg";
+import brokerImg from "../assets/downImage.jpeg";
 
 export default function About() {
   return (
