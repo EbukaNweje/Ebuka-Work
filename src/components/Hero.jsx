@@ -8,7 +8,7 @@ import AnimatedSection from "./AnimatedSection";
 const slides = [
   {
     img: Img1,
-    subtitle: "JOSHUA M MILLER - Morgan Stanley Licensed Broker",
+    subtitle: "JOSHUA M MILLER - Bank of America Broker",
     title: "Empower Your Finances",
   },
   {

@@ -32,7 +32,7 @@ export default function AboutDetail() {
           <p className="text-gray-500 text-sm leading-relaxed mb-8">
             Joshua Miller is a licensed Financial Advisor based in Garden City,
             NY, with over 16 years of experience. He is currently affiliated
-            with both Morgan Stanley Financial Advisory and Merrill Lynch,
+            with both Bank of America Financial Advisory and Merrill Lynch,
             Pierce, Fenner & Smith Incorporated. He holds Series 7, Series 66,
             and SIE licenses and is authorized to serve clients across 37
             states.
